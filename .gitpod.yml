@@ -1,3 +1,3 @@
 tasks:
-  - init: npm install @serverless/cloud@latest -g
-    command: cloud
+  - before: npm i @serverless/cloud@latest -g
+    command: cloud --ide=gitpod --initial
